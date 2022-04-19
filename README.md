@@ -7,7 +7,7 @@ Defines an AWS Route 53 Zone and DNS entries, based on YAML files
 Terraform code:
 
 ```
-module "creds" {
+module "dev-lmhd-me" {
   source = "lucymhdavies/route_53_zone_and_records/aws"
 
   name     = "dev.lmhd.me"
