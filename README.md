@@ -31,13 +31,15 @@ records:
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.10.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.10.0 |
 
 ## Modules
 
@@ -63,4 +65,6 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_zone_arn"></a> [zone\_arn](#output\_zone\_arn) | n/a |
+| <a name="output_zone_id"></a> [zone\_id](#output\_zone\_id) | n/a |
 | <a name="output_zone_name_servers"></a> [zone\_name\_servers](#output\_zone\_name\_servers) | n/a |
